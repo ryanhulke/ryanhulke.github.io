@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -54,7 +54,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Ryan Hulke',
     description: '',
     imageURL: '',
   },
@@ -78,19 +78,29 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
+    'PyTorch',
+    'C++',
+    'Java',
     'JavaScript',
     'Node.js',
     'Git',
-    'CSS',
+    'HTML',
   ],
   experiences: [
     {
+      company: 'Dias Lab - University of Florida',
+      position: 'Machine Learning Research Assistant',
+      from: 'September 2024',
+      to: 'Present',
+      companyLink: 'https://ufl.edu',
+    },
+    {
       company: 'Florida Blue',
-      position: 'Incoming IT Intern | Generative AI',
+      position: 'IT Intern | Generative AI',
       from: 'May 2024',
       to: 'August 2024',
       companyLink: 'https://floridablue.com',
@@ -102,7 +112,7 @@ const CONFIG = {
   educations: [
     {
       institution: 'University of Florida',
-      degree: 'Computer Science',
+      degree: 'B.S. Computer Science, Minor in Physics',
       from: '2022',
       to: '2026',
     }
