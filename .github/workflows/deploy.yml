@@ -45,7 +45,7 @@ jobs:
         run: npm run build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2  # ✅ Updated
+        uses: actions/upload-pages-artifact@v4  # ✅ Updated
         with:
           path: ./dist
 
