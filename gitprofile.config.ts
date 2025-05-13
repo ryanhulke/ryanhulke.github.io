@@ -99,6 +99,13 @@ const CONFIG = {
       companyLink: 'https://ufl.edu',
     },
     {
+      company: 'Arthrex',
+      position: 'Digital Innovations Intern',
+      from: 'May 2025',
+      to: 'Aug 2025',
+      companyLink: 'https://www.arthrex.com/'
+    },
+    {
       company: 'Florida Blue',
       position: 'IT Intern | Generative AI',
       from: 'May 2024',
